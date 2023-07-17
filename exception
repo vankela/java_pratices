@@ -1,0 +1,42 @@
+# java_pratices
+package basic_java;
+
+public class exception {
+	public static void main(String[] args) {
+//		try {
+//			System.out.println("open files");
+//			int n=args.length;
+//			System.out.println("n="+n);
+//			int a=34/n;
+//			System.out.println("a= "+a);
+//			System.out.println("girl is reading the stories");
+//		}
+//		catch(ArithmeticException ae) {
+//			System.out.println(ae);
+//			System.out.println("Please pass data while running the program");
+//			
+//			
+//		}
+//		finally {
+//			System.out.println("close files");
+//		}
+		try {
+			System.out.println("open files");
+			int n=args.length;
+			System.out.println("n="+n);
+			int a=34/5;
+			System.out.println("a= "+a);
+			System.out.println("girl is reading the stories");
+		}
+		catch(ArithmeticException ae) {
+			System.out.println(ae);
+			System.out.println("Please pass data while running the program");
+			
+			
+		}
+		finally {
+			System.out.println("close files");
+		}
+	}
+
+}
